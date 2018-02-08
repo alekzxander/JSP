@@ -24,13 +24,16 @@ nav
 nav>ul 
 {
     display: flex;
+    padding-top: 21px;
 }
 nav>ul>li a 
 {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+
 }
+
 nav li 
 {
     list-style: none;
@@ -60,7 +63,55 @@ nav li
     font-family: 'Open Sans', sans-serif;
     color: white;
 }
-.banniere h1
-{
-    filter: grayscale(0%);
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.vert { background-color: #2ecc71; }
+.rouge { background-color: #e74c3c; }
+.bleu { background-color: #34495e; }
+
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  .container {
+    width: auto;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container {
+    width: 750px
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .container {
+    width: 970px
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .container {
+    width: 1170px
+  }
 }
