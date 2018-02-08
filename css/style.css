@@ -3,6 +3,19 @@
   margin: 0px;
 }
 
+
+/* PARTI NEWSLETTER */
+.newsletter {
+  text-align: center;
+  height: 200px;
+}
+
+/* PARTI CATEGORIES */
+.categories {
+  text-align: center;
+  display: flex;
+}
+
 .vert { background-color: #2ecc71; }
 .rouge { background-color: #e74c3c; }
 .bleu { background-color: #34495e; }
