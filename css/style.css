@@ -1,0 +1,42 @@
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  .container {
+    width: auto;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container {
+    width: 750px
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .container {
+    width: 970px
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .container {
+    width: 1170px
+  }
+}
