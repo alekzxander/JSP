@@ -1,0 +1,22 @@
+#HowItWorks {
+    color: red;
+    display:flex;
+    justify-content: space-around;
+}
+
+#HowItWorks .txt{
+    background-color: green;
+    width: 45%;
+}
+
+/*#HowItWorks .txtImg{
+    float: right;
+}*/
+#HowItWorks .txtImg{
+    background-color: green;
+    width: 30px;
+}
+
+#HowItWorks .txtImg img{
+    width: 30px;
+}
