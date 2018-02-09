@@ -99,6 +99,11 @@ body
     
     
 }
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .navbar
 {
     background: #2ecc71;
@@ -170,11 +175,21 @@ nav li
   margin: 0px;
 }
 
+/* BUTTON */
+.btn {
+  background-color: #e74c3c;
+  padding: 10px 50px;
+  color: white;
+}
 
 /* PARTI NEWSLETTER */
 .newsletter {
   text-align: center;
-  height: 200px;
+  width: 550px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
 }
 
 /* PARTI CATEGORIES */
