@@ -339,11 +339,17 @@ footer li>a:hover
 }
 
 /* Small devices (tablets, 768px and up) */
+@media (min-width: 500px) { 
+  .container {
+    width: auto;
+  }
+}
+
+
 @media (min-width: 768px) { 
   .container {
     width: 750px
   }
-  
 }
 
 /* Medium devices (desktops, 992px and up) */
