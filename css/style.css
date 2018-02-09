@@ -181,6 +181,7 @@ nav li
 .categories {
   text-align: center;
   display: flex;
+  padding: 90px 0 60px 0;
 }
 
 .vert { background-color: #2ecc71; }
@@ -205,10 +206,7 @@ nav li
 {
     padding: 90px 0 90px 0;
 }
-.categories 
-{
-    padding: 90px 0 60px 0;
-}
+
 .categories p 
 {
     margin-top: 30px;
@@ -225,8 +223,7 @@ footer
     display: flex;
     justify-content: space-between;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 120px;
-    
+    margin-top: 40px;
 }
 footer ul 
 {
@@ -255,6 +252,9 @@ footer li>a:hover
   .navbar 
   {
       justify-content: center;
+  }
+  .categories {
+      flex-direction: column;
   }
   nav {
     flex-direction: column;
