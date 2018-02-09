@@ -19,7 +19,7 @@
 #HowItWorks p {
     font-size: 19px;
     line-height: 30px;
-    text-align: center;
+    
 }
 
 #HowItWorks .txtImg img{
@@ -185,13 +185,20 @@ nav li
 /* PARTI NEWSLETTER */
 .newsletter {
   text-align: center;
-  /* width: 550px; */
+  width: 523px;
   margin: auto;
   padding-top: 40px;
   padding-bottom: 40px;
   color: white;
 }
-
+.newsletter p {
+    line-height: 30px;
+ 
+}
+.newsletter a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
 /* PARTI CATEGORIES */
 .categories {
   text-align: center;
