@@ -42,19 +42,107 @@
 /* FIN Robin */
 
     
+body 
+{
+    margin: 0 auto;
+}
+.navbar
+{
+    background: #2ecc71;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar img 
+{
+    height: 60px;
+}
+nav 
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav>ul 
+{
+    display: flex;
+    padding-top: 21px;
+}
+nav>ul>li a 
+{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+nav li 
+{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar button
+{
+    background: #e74c3c;
+    border:none;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+.navbar button a 
+{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.banniere
+{
+    padding: 120px 0px 120px 0px;
+    background: linear-gradient(         rgba(39, 38, 38, 0.45),          rgba(78, 78, 78, 0.45)       ),url(../images/banniere.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+
+/* PARTI NEWSLETTER */
+.newsletter {
+  text-align: center;
+  height: 200px;
+}
+
+/* PARTI CATEGORIES */
+.categories {
+  text-align: center;
+  display: flex;
+}
+
+.vert { background-color: #2ecc71; }
+.rouge { background-color: #e74c3c; }
+.bleu { background-color: #34495e; }
+
 .container {
   width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 /* Small devices (tablets, 768px and up) */
