@@ -31,6 +31,7 @@
     justify-content: space-around;
     margin-top: 130px; margin-bottom: 130px;
     text-align: center;
+    width:900px;
     
 }
 .separator
@@ -312,6 +313,15 @@ footer li>a:hover
   {
       margin-right: 0px;
   }
+
+  #choice{
+    display: flex;
+    flex-direction: column;
+}
+
+  #choice .organize{
+      margin-top: 30px;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -319,6 +329,8 @@ footer li>a:hover
   .container {
     width: 750px
   }
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */
