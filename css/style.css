@@ -6,10 +6,6 @@
     margin-top: 100px; margin-bottom: 100px;
 }
 
-#HowItWorks .txt{
-        width: 45%;
-}
-
 #HowItWorks h2{
     text-align: center;
     font-weight: bold;
@@ -186,6 +182,7 @@ nav li
 .newsletter {
   text-align: center;
   width: 550px;
+  margin: auto;
   padding-top: 40px;
   padding-bottom: 40px;
   color: white;
@@ -215,10 +212,6 @@ nav li
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-#HowItWorks 
-{
-    padding: 90px 0 90px 0;
 }
 
 .categories p 
@@ -310,6 +303,12 @@ footer li>a:hover
   footer li>a 
   {
       margin-right: 0px;
+  }
+  #HowItWorks {
+    flex-direction: column;
+  }
+  #HowItWorks .txtImg img{
+    width: 100%;  
   }
 }
 
