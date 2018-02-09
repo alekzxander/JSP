@@ -18,7 +18,7 @@
 }
 
 #HowItWorks .txtImg img{
-    width: 500px;
+    width: 100%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -308,8 +308,8 @@ footer li>a:hover
     flex-direction: column;
   }
   #HowItWorks .txtImg img{
-    width: 100%;  
-  }
+    width: 100%;
+}
 }
 
 /* Small devices (tablets, 768px and up) */
