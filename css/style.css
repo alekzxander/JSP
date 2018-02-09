@@ -185,7 +185,7 @@ nav li
 /* PARTI NEWSLETTER */
 .newsletter {
   text-align: center;
-  width: 550px;
+  /* width: 550px; */
   margin: auto;
   padding-top: 40px;
   padding-bottom: 40px;
