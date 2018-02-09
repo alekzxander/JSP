@@ -320,6 +320,10 @@ footer li>a:hover
     
 }
 
+#choice{
+    flex-direction: column;
+}
+
   #choice .organize{
       margin-top: 30px;
   }
