@@ -25,6 +25,7 @@ nav>ul
 {
     display: flex;
     padding-top: 21px;
+    /* margin-top: 2px; */
 }
 nav>ul>li a 
 {
@@ -46,6 +47,7 @@ nav li
     border:none;
     padding: 10px;
     text-transform: uppercase;
+    margin-top:  -20px;
     margin-left: 60px;
 }
 .navbar button a 
