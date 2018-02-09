@@ -1,3 +1,47 @@
+/* Robin */
+
+#HowItWorks {
+    display:flex;
+    justify-content: space-around;
+}
+
+#HowItWorks .txt{
+        width: 45%;
+}
+
+#HowItWorks .txtImg img{
+    width: 500px;
+}
+
+#choice{
+    display: flex;
+    justify-content: space-around;
+}
+
+#choice .colorBar{
+    background-color: #2ecc71;
+    height: 20px;
+}
+
+#choice .choice{
+    border: 2px solid black;
+    height: 500px;
+    width: 280px;
+    text-align: center;
+}
+
+#choice .choiceButton{
+    background-color:#e74c3c;
+    color:#fff;
+    border: 0;
+    width: 50%;
+    height: 40px;
+    font-size: 14px;
+}
+
+/* FIN Robin */
+
+    
 body 
 {
     margin: 0 auto;
@@ -69,6 +113,19 @@ nav li
 *{
   box-sizing: border-box;
   margin: 0px;
+}
+
+
+/* PARTI NEWSLETTER */
+.newsletter {
+  text-align: center;
+  height: 200px;
+}
+
+/* PARTI CATEGORIES */
+.categories {
+  text-align: center;
+  display: flex;
 }
 
 .vert { background-color: #2ecc71; }
