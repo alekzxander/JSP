@@ -160,6 +160,17 @@ nav li
 {
     padding: 90px 0 90px 0;
 }
+.categories 
+{
+    padding: 90px 0 60px 0;
+}
+.categories p 
+{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 34px;
+    
+}
 footer
 {
     background : #34495e;
