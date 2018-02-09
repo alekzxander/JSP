@@ -17,7 +17,15 @@
     display: flex;
     justify-content: space-around;
 }
-
+.separator
+{
+    margin: 0 auto;
+    width: 222px;
+    height: 2px;
+    background: #2fcc71;
+    margin-top: 100px;
+    border-radius: 10px;
+}
 #choice .colorBar{
     background-color: #2ecc71;
     height: 40px;
@@ -58,25 +66,27 @@ body
 .navbar img 
 {
     height: 60px;
+    text-align: center;
 }
 nav 
 {
     display: flex;
     justify-content: space-between;
-
 }
 nav>ul 
 {
     display: flex;
     padding-top: 21px;
-    /* margin-top: 2px; */
 }
 nav>ul>li a 
 {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-
+}
+nav>ul>li a:hover 
+{
+    color: #e74c3c;
 }
 
 nav li 
@@ -150,10 +160,86 @@ nav li
 {
     padding: 90px 0 90px 0;
 }
+footer
+{
+    background : #34495e;
+    padding: 50px 0 50px 0;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 120px;
+    
+}
+footer ul 
+{
+    display: flex;
+}
+footer li 
+{
+    list-style: none;
+    margin-right: 40px;
+}
+footer li>a 
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+footer li>a:hover
+{
+    color: #e74c3c;
+}
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
   .container {
     width: auto;
+  }
+  .navbar 
+  {
+      justify-content: center;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+      flex-direction: column;
+      justify-content: center;
+  }
+  nav li {
+      margin-top: 17px;
+      font-size: 20px;
+      text-align: center;
+  }
+  .navbar img {
+      height: 120px;
+  }
+  .navbar button{
+      margin-top: 10px;
+      margin-left:0px;
+      margin-bottom: 40px;
+  }
+  .navbar figure 
+  {
+      text-align: center;
+  }
+  footer ul 
+  {
+      flex-direction: column;
+  }
+  footer 
+  {
+      flex-direction: column;
+  }
+  footer li 
+  {
+      margin-top: 20px;
+      text-align: center;
+  }
+  footer li>a 
+  {
+      margin-right: 0px;
   }
 }
 
