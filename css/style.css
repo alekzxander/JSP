@@ -20,13 +20,13 @@
 
 #choice .colorBar{
     background-color: #2ecc71;
-    height: 20px;
+    height: 40px;
 }
 
 #choice .choice{
     border: 2px solid black;
     height: 500px;
-    width: 280px;
+    width: 480px;
     text-align: center;
 }
 
@@ -146,7 +146,10 @@ nav li
   margin-right: auto;
   margin-left: auto;
 }
-
+#HowItWorks 
+{
+    padding: 90px 0 90px 0;
+}
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
   .container {
