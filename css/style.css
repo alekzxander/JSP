@@ -328,9 +328,20 @@ footer li>a:hover
   #HowItWorks .txtImg img{
     width: 100%;
   }
+
+  .newsletter {
+    width: 100%;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
+@media (min-width: 500px) { 
+  .container {
+    width: auto;
+  }
+}
+
+
 @media (min-width: 768px) { 
   .container {
     width: 750px
