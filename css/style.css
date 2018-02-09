@@ -1,22 +1,86 @@
+/* Robin */
+
 #HowItWorks {
-    color: red;
     display:flex;
     justify-content: space-around;
 }
 
 #HowItWorks .txt{
-    background-color: green;
-    width: 45%;
-}
-
-/*#HowItWorks .txtImg{
-    float: right;
-}*/
-#HowItWorks .txtImg{
-    background-color: green;
-    width: 30px;
+        width: 45%;
 }
 
 #HowItWorks .txtImg img{
-    width: 30px;
+    width: 500px;
+}
+
+#choice{
+    display: flex;
+    justify-content: space-around;
+}
+
+#choice .colorBar{
+    background-color: #2ecc71;
+    height: 20px;
+}
+
+#choice .choice{
+    border: 2px solid black;
+    height: 500px;
+    width: 280px;
+    text-align: center;
+}
+
+#choice .choiceButton{
+    background-color:#e74c3c;
+    color:#fff;
+    border: 0;
+    width: 50%;
+    height: 40px;
+    font-size: 14px;
+}
+
+/* FIN Robin */
+
+    
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  .container {
+    width: auto;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .container {
+    width: 750px
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .container {
+    width: 970px
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .container {
+    width: 1170px
+  }
 }
